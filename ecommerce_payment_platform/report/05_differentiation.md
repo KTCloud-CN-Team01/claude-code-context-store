@@ -1,4 +1,4 @@
-# 0번 과제 — 차별화 전략 (Value Proposition Canvas)
+# 05 — 차별화 전략 (Value Proposition Canvas)
 
 > 인풋: [04_pain_points.md](./04_pain_points.md)
 > 고객 정의: 본 프로젝트는 상용 서비스가 아닌 KT Tech Up 실무 과제(결제·콘텐츠 도메인 MSA 구축)이므로, Value Proposition Canvas의 "고객"은 **"결제·콘텐츠 e-Commerce 플랫폼을 클라우드 네이티브로 운영해야 하는 SRE/플랫폼 엔지니어링 팀"** 페르소나로 설정. 우리 팀 스스로가 1차 고객이며, 동일 입장의 실무 팀 일반에게도 적용 가능한 결론을 목표로 함.

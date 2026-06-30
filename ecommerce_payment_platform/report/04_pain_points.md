@@ -1,6 +1,6 @@
-# 0번 과제 — 페인포인트 도출 (MECE + 피쉬본 분석)
+# 04 — 페인포인트 도출 (MECE + 피쉬본 분석)
 
-> 인풋: [01_company_profiles.md](./01_company_profiles.md), [02_comparison_matrix.md](./02_comparison_matrix.md)
+> 인풋: [02_service_selection.md](./02_service_selection.md), [03_comparison_matrix.md](./03_comparison_matrix.md)
 > 방법론: 6개 기업 비교에서 관찰된 격차/리스크를 **MECE(상호배타·전체포괄)** 기준 4개 카테고리로 분류한 뒤, 핵심 질문에 대해 **피쉬본(이시카와) 다이어그램**으로 근본원인을 추적. 모든 근거는 01_company_profiles.md의 실제 출처에서만 인용 — 직접적 출처가 없는 항목은 "정황 기반 추정"으로 명시.
 
 ---

@@ -1,6 +1,6 @@
-# 0번 과제 (선택) — 카오스 엔지니어링 적용 수준 비교
+# 07 — 카오스 엔지니어링 적용 수준 비교 (선택)
 
-> [01_company_profiles.md](./01_company_profiles.md), [02_comparison_matrix.md](./02_comparison_matrix.md)의 카오스 엔지니어링 항목을 심화. 2026-06-30 Walmart·카카오페이 재조사 결과를 반영해 기존 평가를 갱신.
+> [02_service_selection.md](./02_service_selection.md), [03_comparison_matrix.md](./03_comparison_matrix.md)의 카오스 엔지니어링 항목을 심화. 2026-06-30 Walmart·카카오페이 재조사 결과를 반영해 기존 평가를 갱신.
 
 ---
 
