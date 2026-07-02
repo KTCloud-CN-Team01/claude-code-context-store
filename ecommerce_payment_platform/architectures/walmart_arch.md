@@ -53,7 +53,9 @@
 │  자체 진단 도구 "Resiliency Doctor"                                      │
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
-```
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ec1abb51-51e0-4831-b18e-18cb809c7895" />
+
 
 ## 2. 5축 요약
 
