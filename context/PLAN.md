@@ -91,7 +91,7 @@ ecommerce_payment_platform/
 - 문서를 **소단위 청크**(1파일 ≦ 400행 내외)로 분할
 - 도표는 텍스트/ASCII 형식(외부 렌더링 불필요, 로컬 완결)
 - 각 단계 완료 후 `git commit`으로 체크포인트 생성
-- **모든 인용 URL은 실제 WebSearch/WebFetch로 검증된 것만 사용** — 가공·추정 URL 절대 금지(타 팀 레포에서 의심스러운 인용이 발견된 사례를 반면교사로 삼음). 상세 원칙은 `PROCESS.md` 참조.
+- **모든 인용 URL은 실제 WebSearch/WebFetch로 검증된 것만 사용** — 가공·추정 URL 절대 금지. 상세 원칙은 `PROCESS.md` 참조.
 
 ---
 
