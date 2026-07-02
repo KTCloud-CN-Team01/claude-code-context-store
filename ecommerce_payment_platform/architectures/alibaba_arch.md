@@ -12,15 +12,17 @@
 │                         Alibaba 아키텍처 전체상                            │
 ├──────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
+│  1. 초기 구조                                                            │
+│  [RPC 계층 — Apache Dubbo, 2017 Apache 최상위 프로젝트(Alibaba 발원)]      │
+│                                                                          │
+│         ▼                                                                │
+│  2. 도메인 분리 및 서비스 구조                                           │
 │  [Spring Cloud Alibaba 생태계 — 자체 발원 OSS 다수]                       │
 │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐                    │
 │  │ Nacos    │ │ RocketMQ │ │ Sentinel │ │ Seata    │                    │
 │  │(디스커버리│ │(메시징)  │ │(플로우제어│ │(분산     │                    │
 │  │ /설정)   │ │          │ │/CB)      │ │ 트랜잭션)│                    │
 │  └──────────┘ └──────────┘ └──────────┘ └──────────┘                    │
-│         │                                                                │
-│         ▼                                                                │
-│  [RPC 계층 — Apache Dubbo, 2017 Apache 최상위 프로젝트(Alibaba 발원)]      │
 │         │                                                                │
 │         ▼                                                                │
 │  [서비스 메시 — 3갈래 전략]                                               │
@@ -34,22 +36,20 @@
 │  [컨테이너 오케스트레이션]                                                │
 │  Sigma → PouchContainer(2017 OSS화) → ASI(K8s 기반, Kube-on-Kube)        │
 │  10,000-노드 규모 클러스터 + Cilium(CNCF 사례연구)                       │
-│         │                                                                │
-│         ▼                                                                │
-│  [관찰성 — ARMS]                                                         │
-│  OpenTelemetry/Prometheus 표준 지원, eBPF 무계측 모니터링                 │
-│  관리형 Grafana/Prometheus 제공                                          │
-│  (※ Apache SkyWalking은 Alibaba 발명 아님 — 개인 개발자 발원, Alibaba는 채택만) │
-│         │                                                                │
-│         ▼                                                                │
-│  [복원력 — Sentinel + ChaosBlade]                                        │
-│  ChaosBlade(2019 OSS, CNCF Sandbox, Dubbo 타임아웃/예외 주입까지 지원)     │
-│  Remote multi-active architecture(2013~, 다도시 트랜잭션 유닛 분산)        │
-│         │                                                                │
-│         ▼                                                                │
-│  [CD 계층 — 光棍节(광군제) 대비 핵심 기법]                                │
+│                                                                          │
+│  3. 플랫폼 운영 체계                                                     │
+│  A) CD 계층 — 光棍节(광군제) 대비 핵심 기법                                │
 │  ACK 기반 자동화 + Virtual Kubelet(분당 100 Pod 탄력확장)                 │
 │  全链路压测(전체링크 스트레스 테스트) + 그림자 테이블(운영데이터 오염방지)  │
+│                                                                          │
+│  B) 관찰성 — ARMS                                                        │
+│  OpenTelemetry/Prometheus 표준 지원, eBPF 무계측 모니터링                 │
+│  관리형 Grafana/Prometheus 제공                                          │
+│  (※ Apache SkyWalking은 Alibaba 발명 아님 — 개인 개발자 발원, 채택만)      │
+│                                                                          │
+│  C) 복원력 — Sentinel + ChaosBlade                                       │
+│  ChaosBlade(2019 OSS, CNCF Sandbox, Dubbo 타임아웃/예외 주입까지 지원)     │
+│  Remote multi-active architecture(2013~, 다도시 트랜잭션 유닛 분산)        │
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
