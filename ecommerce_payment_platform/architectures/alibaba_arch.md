@@ -53,6 +53,8 @@
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
+<img width="1133" height="1388" alt="image" src="https://github.com/user-attachments/assets/12519458-dbff-4d0f-a6cc-db73626c4dd3" />
+
 
 ## 2. 5축 요약
 
