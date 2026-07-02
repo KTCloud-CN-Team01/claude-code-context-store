@@ -53,6 +53,7 @@
 │  자체 진단 도구 "Resiliency Doctor"                                      │
 │                                                                          │
 └──────────────────────────────────────────────────────────────────────────┘
+```
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/3571a3c9-7947-485d-86a5-b8ffcfb6eaf1" />
 
